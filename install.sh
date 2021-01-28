@@ -12,8 +12,7 @@ else
             echo -e "$arch currently not available.";
         else
             curl -L "https://raw.githubusercontent.com/kaozaza2/termux-mongo-php-driver/main/mongodb.so" -o "$mongofile"
-#           uncomment if need
-#           echo "extension=mongodb.so" >> "$PREFIX/lib/php.ini"
+            echo "extension=mongodb.so" >> "$PREFIX/lib/php.ini"
             echo -e "Mongo php driver succeasfully installed!"
         fi
     fi
