@@ -1,5 +1,5 @@
 # termux-mongo-php-driver
-A mongo driver for php on termux
+A mongo driver for php on termux (only for aarch64)
 
 # Before Install
 install below package:
